@@ -157,6 +157,10 @@
 	background-color:rgba(127,127,127,.2)
 }
 
+.rcSlider__thumb-border {
+border-radius: 50%;
+}
+
 @media print {
 	.rcSlider__arr,.rcSlider__fullscreen-icon,.rcSlider__thumb-border,.rcSlider__video-close,.rcSlider__video-play
 	{
@@ -422,7 +426,8 @@
 	overflow:hidden;
 	position:relative;
 	width:100%;
-	height:100%
+	height:100%;
+	border-radius: 50%;
 }
 
 .rcSlider__nav__frame:focus .rcSlider__thumb
